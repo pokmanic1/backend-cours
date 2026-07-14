@@ -8,5 +8,13 @@
 //npm install prisma --save-dev
 //npm i @prisma/client
 //npm install dotenv
+//npm install @prisma/adapter-pg
 
-??incepem 
+
+
+
+//incepem mai intai cu baza de date configurarea schema si conectarea
+
+//.apoi facem sistemul de autentificare
+
+//npm i bcryptjs
