@@ -6,7 +6,7 @@
 //pentru prisma
 //$ npx prisma init
 //npm install prisma --save-dev
-//npm i @prisma/client
+//npm install @prisma/client
 //npm install dotenv
 //npm install @prisma/adapter-pg
 
