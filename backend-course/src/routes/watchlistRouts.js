@@ -1,11 +1,11 @@
 import express from 'express'
-import { register, login, logout } from '../controllers/authController.js';
+import { addToWatchList } from '../controllers/watchlistController.js';
 
 
 
 const router = express.Router();
 //clean patern controler is a function that is gonna have a handler for when that rout is hit
-router.post('/register', register);
-router.post('/login', login);
-router.post('/logout', logout)
+router.post('/', addToWatchList);
+// router.post('/login', login);
+// router.post('/logout', logout)
 export default router;

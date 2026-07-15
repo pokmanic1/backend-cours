@@ -7,7 +7,7 @@ const PORT = 5001
 //Routes
 import movieRoutes from './routes/movieRoutes.js'
 import authRoutes from './routes/authRoutes.js';
-
+import watchlistRouts from './routes/watchlistRouts.js'
 
 const app = express()
 
@@ -20,6 +20,7 @@ config()
 
 app.use("/movies", movieRoutes);
 app.use("/auth", authRoutes);
+app.use("/watchlist", watchlistRouts);
 
 
 

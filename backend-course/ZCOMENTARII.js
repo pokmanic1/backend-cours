@@ -18,3 +18,4 @@
 //.apoi facem sistemul de autentificare
 
 //npm i bcryptjs
+//npm i jsonwebtoken
