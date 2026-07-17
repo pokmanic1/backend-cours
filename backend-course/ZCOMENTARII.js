@@ -19,3 +19,6 @@
 
 //npm i bcryptjs
 //npm i jsonwebtoken
+
+//npm i zod 
+//validare types
